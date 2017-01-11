@@ -12,54 +12,74 @@ Feedback and suggestions are welcome and may be addressed to any active member o
 
 Enjoy, The SDLE team
 
+# Quick Start
+If you meet the all following cases, you don't need to follow the all "step by step" instruction.
+* You are already able to run Gran Turismo 4 on 64bit Windows system 
+* Your PCSX2 is in the "C:\Program Files (x86)\PCSX2 1.4.0" folder,
+* You aleady have Visual Studio Community 2015
+
+Here is the short version of instruction to see SDLE.
+* Double click "client_server/SDLE.sln"
+* Press "F7" at VS2015 to build solution
+* Double click "client_server/PCX2_plugin/install_plugin.bat"
+* Double click "client_server/PCX2_agent_server/execute_server.bat"
+* Run PCSX2
+* Click "Config => Plugin/BIOS selector" menu to change controller plugin
+* Select "XPad - modified by Nexell for SDLE" at PAD plugin 
+* Click "OK" button
+* Boot PCSX2 with Gran Turismo 4 image
+* Press 'x' key repeatedly until racing start
+* Press 'Insert' key to activate pre-trained agent
+* Press 'Home' key to diactivate pre-trained agent
+
 
 # Step by step
 
 1.Dependencies
-*64bit Windows
+* 64bit Windows
 Currently, Tensorflow supports only 64bit windows.
 
-*PlayStation2 emulator.(PCSX2 for 32bit Windows) : http://pcsx2.net/download/releases/windows/category/40-windows.html
+* PlayStation2 emulator.(PCSX2 for 32bit Windows) : http://pcsx2.net/download/releases/windows/category/40-windows.html
 Unfortunately, PCSX2 officially supports only 32bit windows. So we've built our PCSX2 plugin for 32bit Windows.
 
-*Visual Studio Community 2015 : https://www.visualstudio.com/downloads/
+* Visual Studio Community 2015 : https://www.visualstudio.com/downloads/
 
-*Tensorflow (Optional) : https://www.tensorflow.org/
+* Tensorflow (Optional) : https://www.tensorflow.org/
 If you have a machine for Tensorflow, you don't need to install Tensorflow. SDLE already have pre-compiled tensorflow static library(binary) for 64bit windows. But if you want to build by yourself refer to the following.
 
 
 *Needless to say, you should have Gran Turismo 4 image file and be able to run on your Windows system.
 
 2.Build
-*Open solution (client_server/SDLE.sln)
-*Build **Release**
+* Open solution (client_server/SDLE.sln)
+* Build **Release**
 Unfortunately again, Tensorflow C/C++ API does not support Debug build currently.
-*Copy PCSX2 plugin into your system.
+* Copy PCSX2 plugin into your system.
 If your PCSX2 is in "C:\Program Files (x86)\PCSX2 1.4.0", then just execute "client_server/PCX2_plugin/install_plugin.bat" Otherwise you should copy the plugin file(client_server/PCX2_plugin/Win32Release/nexell_xpad.dll) into your system, manually.
     copy /y client_server/PCX2_plugin/Win32Release/nexell_xpad.dll "C:\Program Files (x86)\PCSX2 1.4.0\Plugins"
 
 3.Select controller plugin
-*Run PCSX2
-*Click "Config => Plugin/BIOS selector" menu to change controller plugin
-*Select "XPad - modified by Nexell for SDLE" at PAD plugin 
-*Click "OK" button
+* Run PCSX2
+* Click "Config => Plugin/BIOS selector" menu to change controller plugin
+* Select "XPad - modified by Nexell for SDLE" at PAD plugin 
+* Click "OK" button
 
 4.Run sample pre-trained agent
-*Execute server
+* Execute server
 Press "Ctrl+F5" at Visual Studio Community 2015
 or
 Double click "client_server/PCX2_agent_server/execute_server.bat"
-*Now boot PCSX2 with Gran Turismo 4 image
-*Press 'x' key repeatedly until racing start
-*Press 'Insert' key to activate pre-trained agent
-*Press 'Home' key to diactivate pre-trained agent
+* Now boot PCSX2 with Gran Turismo 4 image
+* Press 'x' key repeatedly until racing start
+* Press 'Insert' key to activate pre-trained agent
+* Press 'Home' key to diactivate pre-trained agent
 
 # Capture data for your tranning
-*Execute server
-*Boot PCSX2 with Gran Turismo 4 image
-*Press 'Delete' key to begin capturing
-*Press 'End' key to keep the captured data
-*Press 'PageDown' key to cencel the captured data
+* Execute server
+* Boot PCSX2 with Gran Turismo 4 image
+* Press 'Delete' key to begin capturing
+* Press 'End' key to keep the captured data
+* Press 'PageDown' key to cencel the captured data
 Your captured data is in "client_server/PCX2_agent_server/captured" folder
 xxxxxx_xxxx_f_####.gz : RGB pixel data ( unsigned char [####][ CAPTURE_WIDTH * CAPTURE_HEIGHT * 3 ] )
 xxxxxx_xxxx_v_####.gz : velocity ( float [####] )
