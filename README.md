@@ -53,7 +53,9 @@ Here is the short version of instruction to see SDLE.
 * [Tensorflow (Optional)](https://www.tensorflow.org/)
 > If you have a machine for Tensorflow, you don't need to install Tensorflow.
 > SDLE already have pre-compiled tensorflow static library(binary) for 64bit windows.
+>
 > But if you want to build by yourself refer to the following.
+>
 
 * Needless to say, you should have Gran Turismo 4 image file and be able to run on your Windows system.
 
@@ -61,14 +63,13 @@ Here is the short version of instruction to see SDLE.
 
 * Open solution (client_server/SDLE.sln)
 * Build **Release** 
-
->Unfortunately again, Tensorflow C/C++ API does not support Debug build currently.
+> Unfortunately again, Tensorflow C/C++ API does not support Debug build currently.
 
 * Copy PCSX2 plugin into your system.
-
->If your PCSX2 is in "C:\Program Files (x86)\PCSX2 1.4.0",
->then just execute "client_server/PCX2_plugin/install_plugin.bat"
->Otherwise you should copy the plugin file into your system, manually. 
+> If your PCSX2 is in "C:\Program Files (x86)\PCSX2 1.4.0",
+> then just execute "client_server/PCX2_plugin/install_plugin.bat"
+> Otherwise you should copy the plugin file into your system, manually. 
+>
 >    copy /y client_server/PCX2_plugin/Win32Release/nexell_xpad.dll "C:\Program Files (x86)\PCSX2 1.4.0\Plugins"
 
 ## Select controller plugin
@@ -81,9 +82,7 @@ Here is the short version of instruction to see SDLE.
 ## Run sample pre-trained agent
 
 * Execute server 
->Press "Ctrl+F5" at Visual Studio Community 2015
->or
->Double click "client_server/PCX2_agent_server/execute_server.bat"
+> Double click "client_server/PCX2_agent_server/execute_server.bat"
 * Now boot PCSX2 with Gran Turismo 4 image
 * Press 'x' key repeatedly until racing start
 * Press 'Insert' key to activate pre-trained agent
@@ -98,15 +97,19 @@ Here is the short version of instruction to see SDLE.
 * Press 'PageDown' key to cencel the captured data
 
 Your captured data is in "client_server/PCX2_agent_server/captured" folder
-xxxxxx_xxxx_f_####.gz : RGB pixel data ( unsigned char [####][ CAPTURE_WIDTH * CAPTURE_HEIGHT * 3 ] )
-xxxxxx_xxxx_v_####.gz : velocity ( float [####] )
-xxxxxx_xxxx_s_####.gz : steering value ( float [####] )
+
+* xxxxxx_xxxx_f_####.gz : RGB pixel data ( unsigned char [####][ CAPTURE_WIDTH * CAPTURE_HEIGHT * 3 ] )
+* xxxxxx_xxxx_v_####.gz : velocity ( float [####] )
+* xxxxxx_xxxx_s_####.gz : steering value ( float [####] )
+
 You can modify steering method and captured data format, refer to main_game_interface.h and main_game_capture.cc
 
 # Program your own agent
 
 You can program your own game agent, refer to main_game_interface.h and main_game_agent.cc
+
 You can see sample agent implemented by using Tensorflow C/C++ API.
+
 It just a simple sample, We want to encourage you to make your own Self-Driving agent.
 
 
