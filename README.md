@@ -19,6 +19,7 @@ If you meet the all following conditions, you don't need to follow the all "step
 * You aleady have Visual Studio Community 2015
 
 Here is the short version of instruction to see SDLE.
+
 1. Double click "client_server/SDLE.sln"
 2. Press "F7" at VS2015 to build solution
 3. Double click "client_server/PCX2_plugin/install_plugin.bat"
