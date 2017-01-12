@@ -51,9 +51,9 @@ Here is the short version of instruction to see SDLE.
 * [Visual Studio Community 2015](https://www.visualstudio.com/downloads/)
 
 * [Tensorflow (Optional)](https://www.tensorflow.org/)
->If you have a machine for Tensorflow, you don't need to install Tensorflow.
->SDLE already have pre-compiled tensorflow static library(binary) for 64bit windows.
->But if you want to build by yourself refer to the following.
+> If you have a machine for Tensorflow, you don't need to install Tensorflow.
+> SDLE already have pre-compiled tensorflow static library(binary) for 64bit windows.
+> But if you want to build by yourself refer to the following.
 
 * Needless to say, you should have Gran Turismo 4 image file and be able to run on your Windows system.
 
