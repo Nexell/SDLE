@@ -19,18 +19,18 @@ If you meet the all following conditions, you don't need to follow the all "step
 * You aleady have Visual Studio Community 2015
 
 Here is the short version of instruction to see SDLE.
-* Double click "client_server/SDLE.sln"
-* Press "F7" at VS2015 to build solution
-* Double click "client_server/PCX2_plugin/install_plugin.bat"
-* Double click "client_server/PCX2_agent_server/execute_server.bat"
-* Run PCSX2
-* Click "Config => Plugin/BIOS selector" menu to change controller plugin
-* Select "XPad - modified by Nexell for SDLE" at PAD plugin 
-* Click "OK" button
-* Boot PCSX2 with Gran Turismo 4 image
-* Press 'x' key repeatedly until racing start
-* Press 'Insert' key to activate pre-trained agent
-* Press 'Home' key to diactivate pre-trained agent
+1. Double click "client_server/SDLE.sln"
+2. Press "F7" at VS2015 to build solution
+3. Double click "client_server/PCX2_plugin/install_plugin.bat"
+4. Double click "client_server/PCX2_agent_server/execute_server.bat"
+5. Run PCSX2
+6. Click "Config => Plugin/BIOS selector" menu to change controller plugin
+7. Select "XPad - modified by Nexell for SDLE" at PAD plugin 
+8. Click "OK" button
+9. Boot PCSX2 with Gran Turismo 4 image
+10. Press 'x' key repeatedly until racing start
+11. Press 'Insert' key to activate pre-trained agent
+12. Press 'Home' key to diactivate pre-trained agent
 
 
 # Step by step
