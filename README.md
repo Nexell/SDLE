@@ -42,11 +42,11 @@ Here is the short version of instruction to see SDLE.
 ## Dependencies
 
 * 64bit Windows
- Currently, Tensorflow supports only 64bit windows.
+> Currently, Tensorflow supports only 64bit windows.
 
 * [PlayStation2 emulator.(PCSX2 for 32bit Windows)](http://pcsx2.net/download/releases/windows/category/40-windows.html)
- Unfortunately, PCSX2 officially supports only 32bit windows.
- So we've built our PCSX2 plugin for 32bit Windows.
+> Unfortunately, PCSX2 officially supports only 32bit windows.
+> So we've built our PCSX2 plugin for 32bit Windows.
 
 * [Visual Studio Community 2015](https://www.visualstudio.com/downloads/)
 
