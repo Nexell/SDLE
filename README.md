@@ -55,10 +55,15 @@ Here is the short version of instruction to see SDLE.
 
 * Open solution (client_server/SDLE.sln)
 * Build **Release** 
+
 >Unfortunately again, Tensorflow C/C++ API does not support Debug build currently.
+
 * Copy PCSX2 plugin into your system.
+
 >If your PCSX2 is in "C:\Program Files (x86)\PCSX2 1.4.0", then just execute "client_server/PCX2_plugin/install_plugin.bat" Otherwise you should copy the plugin file(client_server/PCX2_plugin/Win32Release/nexell_xpad.dll) into your system, manually. 
->"` copy /y client_server/PCX2_plugin/Win32Release/nexell_xpad.dll "C:\Program Files (x86)\PCSX2 1.4.0\Plugins" "`
+>"`
+>copy /y client_server/PCX2_plugin/Win32Release/nexell_xpad.dll "C:\Program Files (x86)\PCSX2 1.4.0\Plugins" '
+>"`
 
 ## Select controller plugin
 
