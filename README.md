@@ -14,9 +14,9 @@ Enjoy, The SDLE team
 
 # Quick Start
 If you meet the all following conditions, you don't need to follow the all "step by step" instruction.
-* You are already able to run Gran Turismo 4 on 64bit Windows system 
+* You are able to run Gran Turismo 4 on 64bit Windows system 
 * Your PCSX2 is in the "C:\Program Files (x86)\PCSX2 1.4.0" folder,
-* You aleady have Visual Studio Community 2015
+* You have Visual Studio Community 2015
 
 Here is the short version of instruction to see SDLE.
 
