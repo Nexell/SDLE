@@ -36,7 +36,7 @@ Here is the short version of instruction to see SDLE.
 
 # Step by step
 
-1. Dependencies
+## Dependencies
 
 * 64bit Windows
 >Currently, Tensorflow supports only 64bit windows.
@@ -49,27 +49,27 @@ Here is the short version of instruction to see SDLE.
 * Tensorflow (Optional) : https://www.tensorflow.org/
 >If you have a machine for Tensorflow, you don't need to install Tensorflow. SDLE already have pre-compiled tensorflow static library(binary) for 64bit windows. But if you want to build by yourself refer to the following.
 
-*Needless to say, you should have Gran Turismo 4 image file and be able to run on your Windows system.
+* Needless to say, you should have Gran Turismo 4 image file and be able to run on your Windows system.
 
-2. Build
+## Build
 
 * Open solution (client_server/SDLE.sln)
-* Build **Release**
+* Build **Release** 
 >Unfortunately again, Tensorflow C/C++ API does not support Debug build currently.
 * Copy PCSX2 plugin into your system.
->If your PCSX2 is in "C:\Program Files (x86)\PCSX2 1.4.0", then just execute "client_server/PCX2_plugin/install_plugin.bat" Otherwise you should copy the plugin file(client_server/PCX2_plugin/Win32Release/nexell_xpad.dll) into your system, manually.
->"' copy /y client_server/PCX2_plugin/Win32Release/nexell_xpad.dll "C:\Program Files (x86)\PCSX2 1.4.0\Plugins" "'
+>If your PCSX2 is in "C:\Program Files (x86)\PCSX2 1.4.0", then just execute "client_server/PCX2_plugin/install_plugin.bat" Otherwise you should copy the plugin file(client_server/PCX2_plugin/Win32Release/nexell_xpad.dll) into your system, manually. 
+>"` copy /y client_server/PCX2_plugin/Win32Release/nexell_xpad.dll "C:\Program Files (x86)\PCSX2 1.4.0\Plugins" "`
 
-3. Select controller plugin
+## Select controller plugin
 
 * Run PCSX2
 * Click "Config => Plugin/BIOS selector" menu to change controller plugin
-* Select "XPad - modified by Nexell for SDLE" at PAD plugin 
+* Select "XPad - modified by Nexell for SDLE" at PAD plugin
 * Click "OK" button
 
-4. Run sample pre-trained agent
+## Run sample pre-trained agent
 
-* Execute server
+* Execute server 
 >Press "Ctrl+F5" at Visual Studio Community 2015
 >or
 >Double click "client_server/PCX2_agent_server/execute_server.bat"
