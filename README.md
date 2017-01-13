@@ -9,7 +9,6 @@ SDLE is based on PCSX2, an PlayStation2 emulator.
 
 We encourage you to use Self-Driving Learning Environment in your research.
 In return, we would appreciate if you cited SDLE in publications that rely on it
-(BibTeX entry at the end of this document).
 
 Feedback and suggestions are welcome and may be addressed to any active member of the SDLE team.
 
@@ -55,7 +54,7 @@ Here is the short version of instruction to see SDLE.
 > SDLE already have pre-compiled tensorflow static library(binary) for 64bit windows.
 >
 > But if you want to build by yourself refer to the following.
->
+> https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/cmake/README.md
 
 * Needless to say, you should have Gran Turismo 4 image file and be able to run on your Windows system.
 
@@ -111,7 +110,6 @@ You can program your own game agent, refer to main_game_interface.h and main_gam
 You can see sample agent implemented by using Tensorflow C/C++ API.
 
 It just a simple sample, We want to encourage you to make your own Self-Driving agent.
-
 
 
 
