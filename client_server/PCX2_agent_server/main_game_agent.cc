@@ -55,9 +55,6 @@ GameInterface do_infer_server(HWND hWindow, HDC hDC, const unsigned char* pframe
         result.m_acclerator ? "ON " : "OFF",
         result.m_break ? "ON " : "OFF");
 
-    result.m_steering = 0;
-    result.m_acclerator = false;
-    result.m_break = true;
     return result;
 }
 

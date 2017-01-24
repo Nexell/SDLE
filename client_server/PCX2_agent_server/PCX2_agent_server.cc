@@ -669,6 +669,7 @@ namespace {
         if (cur_session) { cur_session->Close(); }
     }
 }  // namespace
+
 static int infer_tf_velocity_digit(const unsigned char* pdata) {
     if (!tf_session_velocity)  {
         if (!open_tf_session()) {

@@ -40,8 +40,8 @@ from scipy import ndimage
 
 
 DATA_DIRECTORY = './captured'
-IMAGE_WIDTH  = 200
-IMAGE_HEIGHT = 66
+IMAGE_WIDTH  = 400
+IMAGE_HEIGHT = 166
 NUM_CHANNELS = 3
 NUM_OUTPUTS  = 1
 SEED = 66478

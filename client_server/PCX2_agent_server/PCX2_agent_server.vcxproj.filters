@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{80ca96d4-81a7-4fb2-965b-ae6bb9e9fa29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{0df9f91a-85b8-461a-95cb-dfa6091117d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="PCX2_agent_server.cc">
@@ -26,26 +32,2082 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="tf\Release64\tf_all.lib" />
-    <Library Include="tf\Release64\libprotobuf-lite.lib" />
-    <Library Include="tf\Release64\libpng12_static.lib" />
-    <Library Include="tf\Release64\libjpeg.lib" />
-    <Library Include="tf\Release64\grpc++_unsecure.lib" />
-    <Library Include="tf\Release64\grpc_unsecure.lib" />
-    <Library Include="tf\Release64\gpr.lib" />
-    <Library Include="tf\Release64\libprotobuf.lib" />
-    <Library Include="tf\Release64\farmhash.lib" />
-    <Library Include="tf\Release64\giflib.lib" />
-    <Library Include="tf\Release64\highwayhash.lib" />
-    <Library Include="tf\Release64\jsoncpp.lib" />
-    <Library Include="tf\Release64\libprotoc.lib" />
-    <Library Include="tf\Release64\png12.lib" />
-    <Library Include="tf\Release64\zlib.lib" />
-    <Library Include="tf\Release64\zlibstatic.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="main_game_interface.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="tf\Release64\gpr.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\grpc_unsecure.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\grpc++_unsecure.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\highwayhash.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\jsoncpp.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\libjpeg.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\libpng12_static.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\libprotobuf.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\libprotobuf-lite.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\libprotoc.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\png12.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\pywrap_tensorflow.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\zlib.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\zlibstatic.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\farmhash.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+    <Library Include="tf\Release64\giflib.lib">
+      <Filter>Libraries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_functional_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_image_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_io_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_linalg_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_logging_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_math_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_nn_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_no_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_parsing_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_random_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_script_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_sdca_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_sendrecv_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_sparse_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_state_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_string_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_training_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_user_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_debug_debug_service.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_example_example.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_example_example.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_example_example_parser_configuration.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_example_feature.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_example_feature.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_allocation_description.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_allocation_description.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_attr_value.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_attr_value.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_cost_graph.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_cost_graph.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_device_attributes.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_device_attributes.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_function.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_function.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_graph.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_graph.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_kernel_def.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_kernel_def.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_log_memory.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_log_memory.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_node_def.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_node_def.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_op_def.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_op_def.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_resource_handle.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_resource_handle.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_step_stats.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_step_stats.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_summary.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_summary.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor_description.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor_description.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor_shape.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor_shape.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor_slice.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_tensor_slice.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_types.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_types.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_variable.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_versions.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_framework_versions.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_kernels_reader_base.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_lib_core_error_codes.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_lib_core_error_codes.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_config.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_config.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_control_flow.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_master.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_master_service.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_meta_graph.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_named_tensor.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_queue_runner.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_saved_model.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_saver.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_saver.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_tensor_bundle.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_tensor_bundle.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_tensorflow_server.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_worker.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_protobuf_worker_service.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_util_event.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_util_memmapped_file_system.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_util_memmapped_file_system.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_util_saved_tensor_slice.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_util_saved_tensor_slice.pb_text.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_core_util_test_log.pb.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_factorization_kernels_clustering_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_factorization_kernels_wals_solver_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_factorization_ops_clustering_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_factorization_ops_factorization_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_layers_kernels_bucketization_kernel.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_layers_kernels_sparse_feature_cross_kernel.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_layers_ops_bucketization_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_layers_ops_sparse_feature_cross_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_metrics_kernels_set_kernels.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_metrics_ops_set_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_rnn_kernels_blas_gemm.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_rnn_kernels_gru_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_rnn_kernels_lstm_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_rnn_ops_gru_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_rnn_ops_lstm_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_best_splits_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_count_extremely_random_stats_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_finished_nodes_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_grow_tree_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_sample_inputs_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_scatter_add_ndim_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_topn_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_tree_predictions_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_tree_utils.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_core_ops_update_fertile_slots_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_data_sparse_values_to_indices.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_data_string_to_float_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_hard_routing_function_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_k_feature_gradient_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_k_feature_routing_function_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_routing_function_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_routing_gradient_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_stochastic_hard_routing_function_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_stochastic_hard_routing_gradient_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_unpack_path_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_tensor_forest_hybrid_core_ops_utils.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_allocator_retry.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_bfc_allocator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_build_graph_options.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_constant_folding.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_copy_tensor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_costmodel_manager.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_device.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_device_factory.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_device_mgr.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_device_set.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_direct_session.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_executor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_function.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_gpu_gpu_tracer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_graph_optimizer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_graph_runner.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_local_device.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_memory_types.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_optimization_registry.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_process_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_rendezvous_mgr.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_session.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_session_factory.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_session_options.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_session_state.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_shape_refiner.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_simple_graph_execution_state.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_simple_placer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_stats_publisher_interface.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_step_stats_collector.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_threadpool_device.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_common_runtime_threadpool_device_factory.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_debug_debug_gateway.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_debug_debug_graph_utils.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_debug_debug_io_utils.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_base_rendezvous_mgr.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_call_options.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_graph_mgr.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_master.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_master_session.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_remote_device.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_channel.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_master_service.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_master_service_impl.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_remote_master.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_remote_worker.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_server_lib.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_session.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_tensor_coding.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_worker_cache.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_worker_service.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_grpc_worker_service_impl.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_rpc_rpc_rendezvous_mgr.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_scheduler.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_server_lib.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_tensor_coding.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_worker_cache_logger.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_distributed_runtime_worker_cache_partial.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_allocator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_attr_value_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_bfloat16.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_cancellation.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_common_shape_fns.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_device_base.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_fake_input.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_function.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_graph_def_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_kernel_def_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_load_library.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_log_memory.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_lookup_interface.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_memory_types.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_node_def_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_node_def_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_op_def_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_op_def_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_op_gen_lib.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_op_kernel.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_op_segment.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_partial_tensor_shape.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_reader_op_kernel.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_rendezvous.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_resource_mgr.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_shape_inference.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_tensor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_tensor_reference.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_tensor_shape.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_tensor_slice.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_tensor_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_tracking_allocator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_types.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_unique_tensor_references.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_framework_versions.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_algorithm.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_colors.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_costmodel.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_edgeset.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_equal_graph_def.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_gradients.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_graph.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_graph_constructor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_graph_def_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_graph_partition.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_node_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_optimizer_cse.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_quantize_training.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_subgraph.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_tensor_id.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_graph_validate.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_adjust_contrast_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_aggregate_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_argmax_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_as_string_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_attention_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_barrier_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_base64_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_batch_matmul_op_complex.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_batch_matmul_op_real.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_batch_norm_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_batchtospace_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_bcast_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_betainc_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_bias_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_bitcast_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_candidate_sampler_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_bfloat.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_bool.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_complex64.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_complex128.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_double.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_float.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_half.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_int8.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_int16.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_int32.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_int64.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_uint8.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cast_op_impl_uint16.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_check_numerics_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cholesky_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cholesky_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_colorspace_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_concat_lib_cpu.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_concat_lib_gpu.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_concat_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conditional_accumulator_base.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conditional_accumulator_base_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conditional_accumulator_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_constant_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_control_flow_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_grad_filter_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_grad_input_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_grad_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_grad_ops_3d.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_ops_3d.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_ops_fused.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_conv_ops_using_gemm.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_count_up_to_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_crop_and_resize_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cross_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_ctc_decoder_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_ctc_loss_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cudnn_pooling_gpu.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_abs.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_acos.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_add_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_add_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_asin.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_atan.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_ceil.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_complex.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_conj.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_cos.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_digamma.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_div.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_equal_to_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_equal_to_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_erf.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_erfc.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_exp.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_floor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_floor_div.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_floor_mod.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_greater.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_greater_equal.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_igammas.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_imag.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_isfinite.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_isinf.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_isnan.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_less.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_less_equal.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_lgamma.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_log.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_logical_and.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_logical_not.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_logical_or.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_maximum.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_minimum.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_mod.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_mul_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_mul_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_neg.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_not_equal_to_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_not_equal_to_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_pow.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_real.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_reciprocal.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_round.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_rsqrt.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_select.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_sigmoid.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_sign.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_sin.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_sqrt.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_square.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_squared_difference.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_sub.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_tan.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_tanh.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_op_zeta.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_cwise_ops_common.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_decode_csv_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_decode_gif_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_decode_jpeg_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_decode_png_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_decode_raw_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_deep_conv2d.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_dense_update_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_depthtospace_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_depthwise_conv_grad_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_determinant_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_diag_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_dilation_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_draw_bounding_box_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_dynamic_partition_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_dynamic_stitch_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_edit_distance_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_encode_jpeg_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_encode_png_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_example_parsing_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_extract_image_patches_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fft_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fifo_queue.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fifo_queue_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fill_functor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fixed_length_record_reader_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fractional_avg_pool_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fractional_max_pool_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fractional_pool_common.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_function_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_fused_batch_norm_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_functor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op_cpu_impl_0.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op_cpu_impl_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op_cpu_impl_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op_cpu_impl_3.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op_cpu_impl_4.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_nd_op_cpu_impl_5.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_gather_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_hexagon_graph_transferer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_identity_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_identity_reader_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_in_topk_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_initializable_lookup_table.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_l2loss_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_linalg_ops_common.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_listdiff_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_logging_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_lookup_table_init_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_lookup_table_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_lookup_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_lrn_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matching_files_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matmul_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_band_part_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_diag_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_inverse_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_set_diag_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_solve_ls_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_solve_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_matrix_triangular_solve_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_maxpooling_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_mirror_pad_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_mirror_pad_op_cpu_impl_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_mirror_pad_op_cpu_impl_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_mirror_pad_op_cpu_impl_3.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_mirror_pad_op_cpu_impl_4.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_mirror_pad_op_cpu_impl_5.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_multinomial_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_no_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_non_max_suppression_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_one_hot_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_ops_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_pack_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_pad_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_padding_fifo_queue.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_padding_fifo_queue_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_parameterized_truncated_normal_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_parse_tensor_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_pooling_ops_3d.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_pooling_ops_common.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_priority_queue.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_priority_queue_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_queue_base.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_queue_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_random_crop_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_random_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_random_shuffle_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_random_shuffle_queue_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_range_sampler.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reader_base.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reader_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduce_join_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_all.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_any.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_common.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_max.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_mean.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_min.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_prod.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reduction_ops_sum.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_relu_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reshape_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_resize_area_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_resize_bicubic_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_resize_bilinear_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_resize_nearest_neighbor_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_restore_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reverse_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_reverse_sequence_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sample_distorted_bounding_box_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_save_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_save_restore_tensor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_save_restore_v2_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_scan_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_scatter_functor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_scatter_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sdca_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_segment_reduction_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_self_adjoint_eig_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_self_adjoint_eig_v2_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sendrecv_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sequence_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_serialize_sparse_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_session_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_shape_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op_cpu_impl_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op_cpu_impl_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op_cpu_impl_3.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op_cpu_impl_4.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op_cpu_impl_5.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_slice_op_cpu_impl_6.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_softmax_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_softplus_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_softsign_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_spacetobatch_functor.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_spacetobatch_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_spacetodepth_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_add_grad_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_add_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_concat_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_conditional_accumulator_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_dense_binary_op_shared.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_reduce_sum_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_reorder_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_reshape_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_softmax_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_sparse_binary_op_shared.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_split_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_tensor_dense_add_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_tensor_dense_matmul_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_tensors_map_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_to_dense_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_sparse_xent_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_split_lib_cpu.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_split_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_stack_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_define_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_inst_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_inst_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_inst_3.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_inst_4.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_inst_5.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_strided_slice_op_inst_6.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_string_join_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_string_split_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_string_to_hash_bucket_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_string_to_number_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_summary_audio_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_summary_image_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_summary_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_summary_tensor_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tensor_array.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tensor_array_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_text_line_reader_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tf_record_reader_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops_cpu_impl_1.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops_cpu_impl_2.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops_cpu_impl_3.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops_cpu_impl_4.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops_cpu_impl_5.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_tile_ops_cpu_impl_6.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_topk_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_training_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_transpose_functor_cpu.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_transpose_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_unique_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_unpack_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_variable_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_where_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_whole_file_read_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_kernels_xent_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_core_arena.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_core_bitmap.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_core_coding.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_core_status.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_core_stringpiece.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_core_threadpool.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_gif_gif_io.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_hash_crc32c.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_hash_hash.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_histogram_histogram.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_block.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_block_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_buffered_inputstream.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_format.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_inputbuffer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_inputstream_interface.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_iterator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_path.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_random_inputstream.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_record_reader.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_record_writer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_snappy_snappy_inputbuffer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_snappy_snappy_outputbuffer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_table.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_table_builder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_two_level_iterator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_zlib_inputstream.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_io_zlib_outputbuffer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_jpeg_jpeg_handle.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_jpeg_jpeg_mem.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_monitoring_collection_registry.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_png_png_io.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_random_distribution_sampler.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_random_random.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_random_simple_philox.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_random_weighted_picker.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_base64.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_numbers.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_ordered_code.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_proto_text_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_scanner.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_str_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_strcat.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_strings_stringprintf.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_lib_wav_wav_io.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_array_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_array_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_candidate_sampling_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_compat_op_compatibility_lib.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_control_flow_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_ctc_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_data_flow_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_function_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_functional_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_functional_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_image_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_io_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_linalg_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_logging_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_math_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_math_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_nn_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_nn_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_no_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_parsing_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_random_grad.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_random_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_script_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_sdca_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_sendrecv_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_sparse_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_state_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_string_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_ops_training_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_default_logging.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_default_protobuf.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_default_tracing.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_denormal.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_env.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_file_system.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_posix_error.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_protobuf_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_tensor_coding.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_tracing.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_windows_env.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_windows_error.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_windows_net.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_windows_port.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_platform_windows_windows_file_system.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_user_ops_fact.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_bcast.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_command_line_flags.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_ctc_ctc_loss_calculator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_device_name_utils.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_env_var.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_events_writer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_example_proto_fast_parsing.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_example_proto_helper.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_guarded_philox_random.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_mirror_pad_mode.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_padding.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_port.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_reporter.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_saved_tensor_slice_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_sparse_group_iterator.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_stat_summarizer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_strided_slice_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_bundle_naming.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_bundle_tensor_bundle.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_format.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_slice_reader.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_slice_reader_cache.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_slice_set.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_tensor_slice_writer.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_use_cudnn.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_util.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_version_info.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\core_util_work_sharder.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\models_embedding_word2vec_kernels.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\models_embedding_word2vec_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\python_framework_python_op_gen.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\cc_framework_cc_op_gen.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\cc_framework_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\cc_framework_scope.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\cc_ops_const_op.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_array_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_candidate_sampling_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_control_flow_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_ctc_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="tf\Release64\obect_lib\contrib_cmake_build_release_tensorflow_cc_ops_data_flow_ops.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
   </ItemGroup>
 </Project>

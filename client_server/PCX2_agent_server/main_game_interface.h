@@ -27,11 +27,11 @@
 //  customizing parameters
 //
 //-----------------------------------------------------------------------------
-#define CAPTURE_WIDTH      200
-#define CAPTURE_HEIGHT     66
+#define CAPTURE_WIDTH      400
+#define CAPTURE_HEIGHT     166
 #define CAPTURE_CH         3     // 3:RGB 1:Luminance
 #define CAPTURE_FRAMERATE  15.0f
-#define VIEW_WINDOW_SCALE  2
+#define VIEW_WINDOW_SCALE  1
 
 //-----------------------------------------------------------------------------
 //
