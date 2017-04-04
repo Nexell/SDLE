@@ -2,7 +2,7 @@
 This is the Self-Driving Learning Environment(SDLE), a platform designed for AI research.
 SDLE is based on PCSX2, an PlayStation2 emulator.
 
-[![SDLE demo](http://img.youtube.com/vi/pXDVV95fmj0/0.jpg)](https://www.youtube.com/watch?v=pXDVV95fmj0=0s)
+[![SDLE demo](http://img.youtube.com/vi/NdbOqNQtAjk/0.jpg)](https://www.youtube.com/watch?v=NdbOqNQtAjk=0s)
 
 We encourage you to use Self-Driving Learning Environment in your research.
 In return, we would appreciate if you cited SDLE in publications that rely on it
