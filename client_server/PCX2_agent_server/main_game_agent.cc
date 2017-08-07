@@ -34,7 +34,7 @@
 #include "./main_game_interface.h"
 
 #define INFER_MODELFILE  ".\\models\\frozen_graph.pb"
-#define INFER_VELOCITY    70
+#define INFER_VELOCITY    60
 
 void init_infer_server(HWND hWindow) {
 }
@@ -67,7 +67,7 @@ void close_infer_server(HWND hWindow) {
 //-----------------------------------------------------------------------------
 namespace {
     tensorflow::Session* tf_session = 0;
-    tensorflow::Tensor infer_i(tensorflow::DT_UINT8, tensorflow::TensorShape({1, CAPTURE_WIDTH, CAPTURE_HEIGHT, CAPTURE_CH }));
+    tensorflow::Tensor infer_i(tensorflow::DT_UINT8, tensorflow::TensorShape({1, CAPTURE_HEIGHT, CAPTURE_WIDTH, CAPTURE_CH }));
     std::vector<std::pair<std::string, tensorflow::Tensor>> tf_inputs = { { "infer_i", infer_i } };
     std::vector<tensorflow::Tensor> tf_outputs;
     void close_tf_session(void);

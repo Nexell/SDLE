@@ -39,7 +39,7 @@
 #define CURSOR_SIZE 40
 #define CAPTURE_DATA_FOLDER ".\\captured"
 #define CAPTURE_FRAME_SKIP  4
-#define CAPTURE_VELOCITY    70
+#define CAPTURE_VELOCITY    60
 
 namespace {
     gzFile       fp_vector_framebuffer = NULL;

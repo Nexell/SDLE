@@ -460,7 +460,7 @@ static void capture_game_state(HDC hDC, unsigned char* const framebuffer, float*
         int bytes_per_line = CAPTURE_WIDTH * 3;
         bytes_per_line = (bytes_per_line + 3) & (~3);
         for (int yy = 0; yy < CAPTURE_HEIGHT; yy++) {
-            ptr = ((const unsigned char*)bmpi->bmiColors) + (bytes_per_line*(CAPTURE_HEIGHT-1-yy));
+            ptr = ((const unsigned char*)bmpi->bmiColors) + (bytes_per_line*yy);//(bytes_per_line*(CAPTURE_HEIGHT-1-yy));
             for (int xx = 0; xx < CAPTURE_WIDTH; xx++) {
             #if (1 == CAPTURE_CH)
                 framebuffer[i] = RGBtoY(ptr[2], ptr[1], ptr[0]);
